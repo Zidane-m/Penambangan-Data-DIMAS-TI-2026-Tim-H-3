@@ -1,0 +1,6 @@
+Kategori,Frekuensi,N,Persen,Sains,CI95_sains,Sains (terbobot),Matematika,Selisih thd rerata sampel sains
+1,Tidak pernah,2817,20.6,404.14,±2.55,391.4,380.99,3.29
+2,Beberapa kali/tahun,2771,20.2,382.04,±2.37,371.53,360.16,-18.81
+3,Beberapa kali/bulan,2697,19.7,412.94,±2.50,401.03,388.95,12.09
+4,Beberapa kali/minggu,3625,26.5,410.71,±2.02,398.27,384.42,9.86
+5,Setiap hari,1774,13.0,396.97,±3.04,387.13,374.85,-3.88
