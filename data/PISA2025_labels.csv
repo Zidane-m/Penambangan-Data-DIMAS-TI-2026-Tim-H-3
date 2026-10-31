@@ -1,0 +1,554 @@
+variable,label
+CNT,Country code 3-character
+CNTRYID,3-digit country code
+CNTSCHID,Intl. School ID
+CNTSTUID,Intl. Student ID
+CYC,PISA Assessment Cycle (2 digits + 2 character Assessment type - MS/FT)
+NatCen,National Centre 6-digit Code
+STRATUM,Stratum ID 5-character (cnt + original stratum ID)
+SUBNATIO,Adjudicated sub-region code 7-digit code (3-digit country code + region ID + stratum ID)
+REGION,REGION
+OECD,OECD country
+ADMINMODE,Mode of Respondent
+LANGTEST_COG,Language of Assessment
+LANGTEST_QQQ,Language Questionnaire
+Option_LDW,Learning in the Digital World Option
+Option_FLA,FLA Option
+Option_ICTQ,ICT Questionnaire Option
+Option_PQ,Parent Questionnaire Option
+Option_UH,Une Heure Option
+BOOKID,Form Identifier
+ST001D01T,Student International Grade (Derived)
+ST003D02T,Student (Standardized) Birth - Month
+ST003D03T,Student (Standardized) Birth -Year
+ST004D01T,Students' gender from sampling data (Female/Male)
+MALE,Students' gender from sampling data (Male/Other)
+ISCEDP,Levels of education programmes (ISCED 2011)
+ST250Q01JA,Which of the following are in your <home>? - A room of your own
+ST250Q02JA,"Which of the following are in your <home>? - A computer (laptop, desktop, or tablet) that you can use for school work"
+ST250Q03JA,Which of the following are in your <home>? - Educational Software or Apps
+ST250Q04JA,Which of the following are in your <home>? - Your own <cell phone> with Internet access (e.g. smartphone)
+ST250Q05JA,Which of the following are in your <home>? - Internet access (e.g. Wi-fi) (excluding through smartphones)
+ST250Q08DA,Which of the following are in your <home>? - Electric lighting
+ST250Q09DA,Which of the following are in your <home>? - < Plumbed water > for consumption
+ST250Q21DA,Which of the following are in your <home>? - A swimming pool or outdoor spa/bath/jacuzzi
+ST250Q22DA,"Which of the following are in your <home>? - A house security system (e.g. <alarm system, surveillance cameras>)"
+ST250Q26DA,"Which of the following are in your <home>? - A subscription to TV or streaming services (e.g. <Cable TV, Satellite TV, Netflix, Disney+, national examples>)"
+ST250Q27DA,"Which of the following are in your <home>? - Domestic workers (e.g. <maid, gardener, drivers, national examples>)"
+ST251Q01JA,"How many of these items are there at your <home>? - Cars, vans, or trucks"
+ST251Q03JA,How many of these items are there at your <home>? - Rooms with a bath or shower
+ST251Q04JA,How many of these items are there at your <home>? - Rooms with a <flush toilet>
+ST251Q06JA,"How many of these items are there at your <home>? - Musical instruments (e.g. guitar, piano, <country-specific example>)"
+ST251Q07JA,"How many of these items are there at your <home>? - Works of art (e.g. paintings, sculptures, <country-specific example>)"
+ST251D08JA,How many of these items are there at your <home>? - <country-specific>
+ST251D09JA,How many of these items are there at your <home>? - <country-specific>
+ST254Q01JA,How many of the following <digital devices> are in your <home>? - Televisions
+ST254Q02JA,How many of the following <digital devices> are in your <home>? - Desktop computers
+ST254Q03JA,How many of the following <digital devices> are in your <home>? - Laptop computers or notebooks
+ST254Q04JA,"How many of the following <digital devices> are in your <home>? - Tablets (e.g. <iPad®>, <BlackBerry® PlayBook™>"
+ST254Q05JA,"How many of the following <digital devices> are in your <home>? - E-book readers (e.g. <Kindle™>, <Kobo>, <Bookeen>)"
+ST255Q01JA,How many books are there in your <home>?
+ST488Q01DA,"Do you possess the following items for your own personal use? - Two pairs of properly fitting shoes, <including a pair of all-weather shoes>"
+ST488Q02DA,Do you possess the following items for your own personal use? - Some new (not second-hand) clothes
+ST488Q08DA,"Do you possess the following items for your own personal use? - Outdoor leisure equipment (e.g. <bicycle, roller skates, racket>)"
+ST488Q09DA,"Do you possess the following items for your own personal use? - Indoor games (e.g. <board games, videogame console>)"
+ST401Q04DA,"Do you do the following <things> regularly? - Attend leisure activities that cost money, such as sport events, cinema, or concert, etc."
+ST401Q07DA,Do you do the following <things> regularly? - Spend at least one-week away from home on holiday every year
+ST403Q01DA,"Based on this definition, how many parents and/or guardians do you have?"
+ST405Q01DA,Which of the following qualifications does your parent or guardian have? - Parent - <ISCED level 2>
+ST405Q02DA,Which of the following qualifications does your parent or guardian have? - Parent - <ISCED level 3.3>
+ST405Q03DA,Which of the following qualifications does your parent or guardian have? - Parent - <ISCED level 3.4>
+ST405Q04DA,Which of the following qualifications does your parent or guardian have? - Parent - <ISCED level 4>
+ST405Q05DA,Which of the following qualifications does your parent or guardian have? - Parent - <ISCED level 5>
+ST405Q06DA,Which of the following qualifications does your parent or guardian have? - Parent - <ISCED level 6>
+ST405Q07DA,Which of the following qualifications does your parent or guardian have? - Parent - <ISCED level 7>
+ST405Q08DA,Which of the following qualifications does your parent or guardian have? - Parent - <ISCED level 8>
+ST405Q09DA,Which of the following qualifications does your parent or guardian have? - My parent or guardian does not have any of these qualifications.
+ST413AQ01D,In what country were you and your parent or guardian born? - You
+ST413BQ01D,In what country were you and your parent or guardian born? - Parent or guardian #1
+ST410Q01DA_A,Which of the following qualifications do your parents or guardians have? - Parent #1 - <ISCED level 2>
+ST410Q01DA_B,Which of the following qualifications do your parents or guardians have? - Parent #2 - <ISCED level 2>
+ST410Q02DA_A,Which of the following qualifications do your parents or guardians have? - Parent #1 - <ISCED level 3.3>
+ST410Q02DA_B,Which of the following qualifications do your parents or guardians have? - Parent #2 - <ISCED level 3.3>
+ST410Q03DA_A,Which of the following qualifications do your parents or guardians have? - Parent #1 - <ISCED level 3.4>
+ST410Q03DA_B,Which of the following qualifications do your parents or guardians have? - Parent #2 - <ISCED level 3.4>
+ST410Q04DA_A,Which of the following qualifications do your parents or guardians have? - Parent #1 - <ISCED level 4>
+ST410Q04DA_B,Which of the following qualifications do your parents or guardians have? - Parent #2 - <ISCED level 4>
+ST410Q05DA_A,Which of the following qualifications do your parents or guardians have? - Parent #1 - <ISCED level 5>
+ST410Q05DA_B,Which of the following qualifications do your parents or guardians have? - Parent #2 - <ISCED level 5>
+ST410Q06DA_A,Which of the following qualifications do your parents or guardians have? - Parent #1 - <ISCED level 6>
+ST410Q06DA_B,Which of the following qualifications do your parents or guardians have? - Parent #2 - <ISCED level 6>
+ST410Q07DA_A,Which of the following qualifications do your parents or guardians have? - Parent #1 - <ISCED level 7>
+ST410Q07DA_B,Which of the following qualifications do your parents or guardians have? - Parent #2 - <ISCED level 7>
+ST410Q08DA_A,Which of the following qualifications do your parents or guardians have? - Parent #1 - <ISCED level 8>
+ST410Q08DA_B,Which of the following qualifications do your parents or guardians have? - Parent #2 - <ISCED level 8>
+ST410Q09DA_A,Which of the following qualifications do your parents or guardians have? - Parent #1 - This parent or guardian does not have any of these qualifications.
+ST410Q09DA_B,Which of the following qualifications do your parents or guardians have? - Parent #2 - This parent or guardian does not have any of these qualifications.
+ST414AQ01D,In what country were you and your parents or guardians born? - You
+ST414BQ01D,In what country were you and your parents or guardians born? - Parent or guardian #1
+ST414CQ01D,In what country were you and your parents or guardians born? - Parent or guardian #2
+ST021Q01TA,How old were you when you arrived in <country of test>?
+ST022Q01TA,What language do you speak at home most of the time?
+ST333Q01DA,How many languages in total do you speak with people at home?
+ST125Q01NA,How old were you when you started <ISCED 0>?
+ST127Q01TA,Have you ever repeated a <grade>? - Repeated at <ISCED 1>
+ST127Q02TA,Have you ever repeated a <grade>? - Repeated at <ISCED 2>
+ST127Q03TA,Have you ever repeated a <grade>? - Repeated at <ISCED 3>
+ST226Q01JA,How long have you been enrolled at this school?
+ST062Q01TA,"In the last two full weeks of school, how often did the following things occur? - I <skipped> a whole school day"
+ST062Q02TA,"In the last two full weeks of school, how often did the following things occur? - I <skipped> some classes"
+ST062Q03TA,"In the last two full weeks of school, how often did the following things occur? - I arrived late for school"
+ST034Q01TA,Thinking about your school: to what extent do you agree with the following statements? - I feel like an outsider (or left out of things) at school.
+ST034Q02TA,Thinking about your school: to what extent do you agree with the following statements? - I make friends easily at school.
+ST034Q03TA,Thinking about your school: to what extent do you agree with the following statements? - I feel like I belong at school.
+ST034Q04TA,Thinking about your school: to what extent do you agree with the following statements? - I feel awkward and out of place in my school.
+ST034Q05TA,Thinking about your school: to what extent do you agree with the following statements? - Other students seem to like me.
+ST034Q06TA,Thinking about your school: to what extent do you agree with the following statements? - I feel lonely at school.
+ST038Q04NA,"During the past 12 months, how often have you had the following experiences in school? - Other students made fun of me."
+ST038Q05NA,"During the past 12 months, how often have you had the following experiences in school? - I was threatened by other students."
+ST038Q07NA,"During the past 12 months, how often have you had the following experiences in school? - I got hit or pushed around by other students."
+ST038Q08NA,"During the past 12 months, how often have you had the following experiences in school? - Other students spread nasty rumours about me."
+ST038Q12DA,"During the past 12 months, how often have you had the following experiences in school? - Information about me that was upsetting was published online without my consent."
+ST265Q01JA,To what extent do you agree or disagree with the following statements? - I feel safe on my way to school
+ST265Q02JA,To what extent do you agree or disagree with the following statements? - I feel safe on my way home from school
+ST265Q03JA,To what extent do you agree or disagree with the following statements? - I feel safe in my classrooms at school
+ST265Q04JA,"To what extent do you agree or disagree with the following statements? - I feel safe at other places at school (e.g. hallway, cafeteria, restroom)"
+ST097Q01TA,How often do these things happen in your <school science> lessons? - Students do not listen to what the teacher said
+ST097Q02TA,How often do these things happen in your <school science> lessons? - There is noise and disorder
+ST097Q03TA,How often do these things happen in your <school science> lessons? - The teacher has to wait a long time for students to quiet down
+ST097Q04TA,How often do these things happen in your <school science> lessons? - Students cannot work well
+ST097Q05TA,How often do these things happen in your <school science> lessons? - Students do not start working for a long time after the lesson begins
+ST097Q06DA,"How often do these things happen in your <school science> lessons? - Students get distracted by using <digital resources> (e.g. smartphones, websites, apps)"
+ST100Q01TA,How often do these things happen in your <school science> lessons? - The teacher shows an interest in every student’s learning
+ST100Q02TA,How often do these things happen in your <school science> lessons? - The teacher gives extra help when students need it
+ST100Q03TA,How often do these things happen in your <school science> lessons? - The teacher helps students with their learning
+ST100Q04TA,How often do these things happen in your <school science> lessons? - The teacher continues teaching until the students understand
+ST100Q05TA,How often do these things happen in your <school science> lessons? - The teacher gives students an opportunity to express opinions
+ST104Q03NA,How often do these things happen in your lessons for this <school science> course? - The teacher tells me in which areas I can still improve
+ST104Q04NA,How often do these things happen in your lessons for this <school science> course? - The teacher tells me how I can improve my performance
+ST469Q06DA,"This school year, how often did your teacher do the following things in your <school science> lessons? - The teacher asked us to think about how new and old scientific topics were related"
+ST469Q08DA,"This school year, how often did your teacher do the following things in your <school science> lessons? - The teacher told us to keep trying even when we face difficulties with a science task"
+ST469Q09DA,"This school year, how often did your teacher do the following things in your <school science> lessons? - The teacher taught us to memorize scientific facts"
+ST469Q10DA,"This school year, how often did your teacher do the following things in your <school science> lessons? - The teacher asked us to explain a scientific principle"
+ST469Q11DA,"This school year, how often did your teacher do the following things in your <school science> lessons? - The teacher asked us to explain how we would design an experiment to address a scientific problem"
+ST468Q09DA,"This school year, how often did your teacher do the following things in your <school science> lessons? - The teacher asked us to debate scientific topics with other members of the class"
+ST468Q08DA,"This school year, how often did your teacher do the following things in your <school science> lessons? - The teacher asked us to discuss with each other what we learned"
+ST468Q10DA,"This school year, how often did your teacher do the following things in your <school science> lessons? - The teacher asked us to explain a scientific principle to the class"
+ST468Q11DA,"This school year, how often did your teacher do the following things in your <school science> lessons? - The teacher asked us to work on a class project in small groups"
+ST531Q02DA,"When learning <school science> topics at school, how often do the following activities occur? - The teacher showed us how science can be useful in our everyday lives"
+ST531Q11DA,"When learning <school science> topics at school, how often do the following activities occur? - The teacher asks us to think of solutions to environmental issues"
+ST094Q01NA,How much do you disagree or agree with the statements about yourself below? - I generally have fun when I am learning <broad science> topics
+ST094Q03NA,How much do you disagree or agree with the statements about yourself below? - I am happy working on <broad science> topics
+ST094Q04NA,How much do you disagree or agree with the statements about yourself below? - I enjoy acquiring new knowledge in <broad science>
+ST094Q05NA,How much do you disagree or agree with the statements about yourself below? - I am interested in learning about <broad science>
+ST129Q03TA,How easy do you think it would be for you to perform the following tasks on your own? - Describe the role of antibiotics in the treatment of disease
+ST129Q05TA,How easy do you think it would be for you to perform the following tasks on your own? - Predict how changes to an environment will affect the survival of certain species
+ST129Q08DA,How easy do you think it would be for you to perform the following tasks on your own? - Identify the better of two explanations for the causes of climate change
+ST129Q11DA,How easy do you think it would be for you to perform the following tasks on your own? - Identify the reliability of scientific information
+ST129Q12DA,How easy do you think it would be for you to perform the following tasks on your own? - Investigate the sustainability of a practice or product
+ST129Q14DA,How easy do you think it would be for you to perform the following tasks on your own? - Explain how carbon-dioxide emissions affect global climate change
+ST131Q04NA,How much do you disagree or agree with the statements below? - Good answers are based on evidence from many different experiments
+ST131Q10DA,How much do you disagree or agree with the statements below? - One important part of <broad science> is doing experiments to come up with ideas about how things work
+ST131Q12DA,How much do you disagree or agree with the statements below? - Information from one source should be checked from a range of other reliable sources before it is accepted
+ST131Q05DA,How much do you disagree or agree with the statements below? - There are some questions that scientists cannot answer
+ST131Q13DA,How much do you disagree or agree with the statements below? - New discoveries can change what scientists think is true
+ST131Q17DA,How much do you disagree or agree with the statements below? - We should rely more on common sense and less on scientific studies
+ST501Q03DA,How much do you agree or disagree with the following statements? - My teacher takes us on field trips to investigate environmental issues
+ST501Q05DA,How much do you agree or disagree with the following statements? - My class discusses solutions to environmental issues
+ST501Q06DA,How much do you agree or disagree with the following statements? - My teacher provides opportunities to research environmental issues
+ST501Q07DA,How much do you agree or disagree with the following statements? - I am assessed on my environmental knowledge
+ST495Q03DA,How often have you been involved with the following activities in the last 12 months? - Joining a peaceful march or rally related to an environmental issue
+ST495Q05DA,How often have you been involved with the following activities in the last 12 months? - Posting concerns about an environmental issue on social media
+ST495Q09DA,How often have you been involved with the following activities in the last 12 months? - Making purchases based on how sustainable the products are
+ST495Q13DA,How often have you been involved with the following activities in the last 12 months? - Stop eating certain foods to minimize some impacts on the environment
+ST495Q15DA,How often have you been involved with the following activities in the last 12 months? - Discuss with friends and family how to have a positive impact on the environment
+ST496Q03DA,Below are possible reasons why you would not have participated to activities that positively impact the environment last year. How much do you agree or disagree with these reasons? - I did not know how
+ST496Q05DA,Below are possible reasons why you would not have participated to activities that positively impact the environment last year. How much do you agree or disagree with these reasons? - No one I knew was participating in activities to benefit the environment
+ST496Q07DA,Below are possible reasons why you would not have participated to activities that positively impact the environment last year. How much do you agree or disagree with these reasons? - I did not believe my actions will make a difference
+ST496Q08DA,Below are possible reasons why you would not have participated to activities that positively impact the environment last year. How much do you agree or disagree with these reasons? - Someone else will take care of the problem
+ST499Q02DA,"How strongly do you agree with the following statements? - I believe that my school and local community can contribute to positively impacting global environmental issues (e.g. climate change, habitat restoration)"
+ST499Q04DA,How strongly do you agree with the following statements? - I believe that by working with my local community we can play an important role in positively impacting the environment
+ST499Q05DA,How strongly do you agree with the following statements? - I believe that by working with my local community we can reduce the use of fossil fuels
+ST499Q06DA,How strongly do you agree with the following statements? - I believe that by working with my school we can reduce their energy consumption
+ST500Q03DA,How much do you agree with the following statements about environmental issues? - I know how to work with others to positively impact the environment
+ST500Q05DA,How much do you agree with the following statements about environmental issues? - I know that there are things that I can do to positively impact the environment
+ST500Q06DA,"How much do you agree with the following statements about environmental issues? - If people work together, we can resolve environmental issues"
+ST500Q09DA,How much do you agree with the following statements about environmental issues? - Looking after the global environment is important to me
+ST498Q01DA,"In the past 12 months how often have you done the following activities? - Watch science-related documentaries (e.g. about animals, health)"
+ST498Q09DA,In the past 12 months how often have you done the following activities? - Attend a science club
+ST498Q11DA,In the past 12 months how often have you done the following activities? - Enter a science competition
+ST498Q13DA,In the past 12 months how often have you done the following activities? - Conduct a science experiment at home
+ST092Q01TA,How informed are you about the following environmental issues? - The increase of greenhouse gases in the atmosphere
+ST092Q04TA,How informed are you about the following environmental issues? - Nuclear waste
+ST092Q05TA,How informed are you about the following environmental issues? - The consequences of clearing forests for other land use
+ST092Q08NA,How informed are you about the following environmental issues? - Extinction of plants and animals
+ST092Q09NA,How informed are you about the following environmental issues? - Water shortages
+ST092Q14DA,How informed are you about the following environmental issues? - Effects of plastic pollution
+ST071Q01NA,"This school year, approximately how many hours per week do you spend learning in addition to your required school schedule in the following subjects? - Learning in addition (how many hours) - Science"
+ST071Q06DA,"This school year, approximately how many hours per week do you spend learning in addition to your required school schedule in the following subjects? - Learning in addition (how many hours) - Other subjects"
+ST502Q01DA,"This school year, which types of additional <School science> instruction do you participate in? - Individual tutoring with a person in the same room"
+ST502Q06DA,"This school year, which types of additional <School science> instruction do you participate in? - Large group study or practice (8 or more students) where the tutor and the students are in the same room"
+ST502Q04DA,"This school year, which types of additional <School science> instruction do you participate in? - Group real-time lessons given by a tutor on a video communication program (e.g. <ZoomTM>, <SkypeTM>, <Google® Meet™>, <Microsoft® Teams>)"
+ST502Q03DA,"This school year, which types of additional <School science> instruction do you participate in? - Internet, computer program or application or video-recorded lessons"
+ST296Q03JA,"In a typical school week, approximately how much time do you spend on homework in the following subjects? - <School science> homework"
+ST296Q04JA,"In a typical school week, approximately how much time do you spend on homework in the following subjects? - Total time for all homework in all subjects, including subjects not listed above"
+ST294Q04JA,"During a typical school week, on how many days do you do each of the following before going to school? - Work for pay"
+ST294Q05JA,"During a typical school week, on how many days do you do each of the following before going to school? - Exercise or practise a sport (e.g. running, cycling, aerobics, soccer, skating, <country-specific>)"
+ST295Q04JA,"During a typical school week, on how many days do you do each of the following after leaving school? - Work for pay"
+ST295Q05JA,"During a typical school week, on how many days do you do each of the following after leaving school? - Exercise or practise a sport (e.g. running, cycling, aerobics, soccer, skating, <country-specific>)"
+ST326Q01JA,"This school year, about how many hours a day do you usually use <digital resources> in the following situations? - For learning activities at school"
+ST326Q02JA,"This school year, about how many hours a day do you usually use <digital resources> in the following situations? - For learning activities before and after school"
+ST326Q03JA,"This school year, about how many hours a day do you usually use <digital resources> in the following situations? - For learning activities on weekends"
+ST326Q04JA,"This school year, about how many hours a day do you usually use <digital resources> in the following situations? - For leisure at school"
+ST326Q05JA,"This school year, about how many hours a day do you usually use <digital resources> in the following situations? - For leisure before and after school"
+ST326Q06JA,"This school year, about how many hours a day do you usually use <digital resources> in the following situations? - For leisure on weekends"
+IC173Q03JA,How often do you use <digital resources> during the lessons in the following subjects? - <Science>
+IC173Q02JA,How often do you use <digital resources> during the lessons in the following subjects? - Mathematics
+IC173Q01JA,How often do you use <digital resources> during the lessons in the following subjects? - <Test language>
+IC173Q05DA,"How often do you use <digital resources> during the lessons in the following subjects? - Human sciences/Humanities /Social studies (e.g., history, geography, civics, law, economics)"
+IC173Q06DA,"How often do you use <digital resources> during the lessons in the following subjects? - Creative arts (e.g., visual arts, music, dance, drama)"
+IC173Q07DA,How often do you use <digital resources> during the lessons in the following subjects? - <Foreign language(s)>
+IC173Q08DA,"How often do you use <digital resources> during the lessons in the following subjects? - <Practical or vocational subjects> (e.g., <mechanics and repair>, <healthcare occupations>, <construction trades>)"
+ST436Q01DA,"This school year, how often did you do the following tasks using <digital resources> in your school lessons? - Search for and find relevant information online"
+ST436Q02DA,"This school year, how often did you do the following tasks using <digital resources> in your school lessons? - Assess the quality of information you found online"
+ST436Q03DA,"This school year, how often did you do the following tasks using <digital resources> in your school lessons? - Write or edit text for a school assignment (e.g. using <Google® Docs™>, <Microsoft® Word>)"
+ST436Q04DA,"This school year, how often did you do the following tasks using <digital resources> in your school lessons? - Create a multi-media presentation (with sound, pictures, or video)"
+ST436Q05DA,"This school year, how often did you do the following tasks using <digital resources> in your school lessons? - Create and edit videos (e.g., <iMovie, Final Cut Pro, InShot>)"
+ST436Q06DA,"This school year, how often did you do the following tasks using <digital resources> in your school lessons? - Create and edit music (e.g. <Audacity, GarageBand>)"
+ST436Q07DA,"This school year, how often did you do the following tasks using <digital resources> in your school lessons? - Create a computer program, macro or app e.g. in <Scratch>, <Logo>, <VBA>,<Java>"
+ST436Q08DA,"This school year, how often did you do the following tasks using <digital resources> in your school lessons? - Collect and record data (e.g., using data loggers, <Microsoft® Access™>, <Google® Form>, <Excel>)"
+ST436Q09DA,"This school year, how often did you do the following tasks using <digital resources> in your school lessons? - Build or edit a webpage (e.g. using <WordPress>)"
+ST436Q10DA,"This school year, how often did you do the following tasks using <digital resources> in your school lessons? - Play digital learning games (e.g. <Atlantis Remixed>, <Duolingo®>)"
+ST436Q11DA,"This school year, how often did you do the following tasks using <digital resources> in your school lessons? - Create shared documents online for collaborative work with others (e.g. using <Google Docs, Dropbox>)"
+ST436Q12DA,"This school year, how often did you do the following tasks using <digital resources> in your school lessons? - Do <science> exercises online"
+ST436Q13DA,"This school year, how often did you do the following tasks using <digital resources> in your school lessons? - Program robots"
+ST436Q14DA,"This school year, how often did you do the following tasks using <digital resources> in your school lessons? - Use virtual or augmented reality"
+ST436Q16DA,"This school year, how often did you do the following tasks using <digital resources> in your school lessons? - Assess the quality of information generated by Artificial Intelligence chatbots (e.g. <ChatGPT>, <Google Bard>)"
+ST437Q01DA,Think about the use of <digital resources> for your schoolwork. How much do you agree or disagree with the following statements? - <Digital resources> help me learn complex things
+ST437Q02DA,Think about the use of <digital resources> for your schoolwork. How much do you agree or disagree with the following statements? - <Digital resources> make the content that I am learning more interesting
+ST438Q01DA,How often do you use Artificial Intelligence chatbots (e.g. <ChatGPT>) for your school work to do the following activities? - To summarize a text I had to read
+ST438Q02DA,How often do you use Artificial Intelligence chatbots (e.g. <ChatGPT>) for your school work to do the following activities? - To conduct preliminary research on a new topic
+ST438Q03DA,How often do you use Artificial Intelligence chatbots (e.g. <ChatGPT>) for your school work to do the following activities? - To draft texts for writing assignments
+ST438Q04DA,How often do you use Artificial Intelligence chatbots (e.g. <ChatGPT>) for your school work to do the following activities? - To help me learn
+ST322Q01JA,Think about your use of <digital devices>. How often do you feel or act the following ways? - I turn off notifications from social networks and apps on my <digital devices> during class
+ST322Q02JA,Think about your use of <digital devices>. How often do you feel or act the following ways? - I turn off notifications from social networks and apps on my <digital devices> when I go to sleep
+ST322Q06JA,Think about your use of <digital devices>. How often do you feel or act the following ways? - I feel pressured to be online and answer messages when I am in class
+ST322Q07JA,Think about your use of <digital devices>. How often do you feel or act the following ways? - I feel nervous/anxious when I don’t have my <digital device> near me
+ST300Q01JA,How often do your parents or someone in your family do the following things with you? - Discuss how well you are doing at school
+ST300Q05JA,How often do your parents or someone in your family do the following things with you? - Talk to you about any problems you might have at school
+ST300Q08JA,How often do your parents or someone in your family do the following things with you? - Take an interest in what you are learning at school
+ST300Q09JA,How often do your parents or someone in your family do the following things with you? - Talk to you about your future education
+ST300Q10JA,How often do your parents or someone in your family do the following things with you? - Ask you what you did in school that day
+ST327Q01JA,Which of the following qualifications do you expect to complete? - <ISCED level 2>
+ST327Q02JA,Which of the following qualifications do you expect to complete? - <ISCED level 3.3>
+ST327Q03JA,Which of the following qualifications do you expect to complete? - <ISCED level 3.4>
+ST327Q04JA,Which of the following qualifications do you expect to complete? - <ISCED level 4>
+ST327Q05JA,Which of the following qualifications do you expect to complete? - <ISCED level 5>
+ST327Q06JA,Which of the following qualifications do you expect to complete? - <ISCED level 6>
+ST327Q07JA,Which of the following qualifications do you expect to complete? - <ISCED level 7>
+ST327Q08JA,Which of the following qualifications do you expect to complete? - <ISCED level 8>
+ST516Q01DA,What are the reasons you do not expect to continue with <further education>? - <Further education> is not required for my chosen career
+ST516Q03DA,What are the reasons you do not expect to continue with <further education>? - I cannot afford tuition fees
+ST516Q09DA,What are the reasons you do not expect to continue with <further education>? - I am not doing very well at school
+ST516Q10DA,What are the reasons you do not expect to continue with <further education>? - I am unsure if <further education> will be needed for my career
+ST516Q11DA,What are the reasons you do not expect to continue with <further education>? - I plan to start work immediately after finishing school
+ST324Q10JA,To what extent do you agree or disagree with the following statements? - School has done little to prepare me for adult life when I leave school
+ST324Q11JA,To what extent do you agree or disagree with the following statements? - School has been a waste of time
+ST324Q13JA,To what extent do you agree or disagree with the following statements? - School has taught me things which could be useful in a job
+ST527Q01DA,"In your opinion, which level of education do most of your schoolmates expect to complete?"
+ST528Q01DA,Which of the following qualifications do you think your <parents/guardians> expect or want you to complete?
+ST533Q01DA,To what extent are you interested in contributing towards protecting the environment in your future job?
+ST515Q02DA,How often do the following things happen to students in your <school science> courses? - develop models or simulations to help explain natural phenomena e.g. earthquakes
+ST515Q04DA,How often do the following things happen to students in your <school science> courses? - carry out an experiment to investigate a scientific question
+ST515Q05DA,How often do the following things happen to students in your <school science> courses? - analyse and interpret data
+ST515Q08DA,How often do the following things happen to students in your <school science> courses? - develop explanations of phenomena (e.g. climate change) based on scientific evidence or models
+ST515Q09DA,How often do the following things happen to students in your <school science> courses? - develop scientific arguments using evidence to support a claim
+ST515Q11DA,How often do the following things happen to students in your <school science> courses? - critically evaluate the credibility and trustworthiness of online information
+ST016Q01NA,"Overall, how satisfied are you with your life as a whole these days?"
+ST493Q01DA,To what extent do you agree or disagree with the following statements? - Your status in society is something that you can’t really change very much
+ST420Q01DA,"To what extent do you agree or disagree with the following statements? - You have a certain amount of intelligence, and you really can’t do much to change it"
+ST420Q02DA,"To what extent do you agree or disagree with the following statements? - You have a certain amount of science ability, and you really can’t do much to change it"
+ST307Q01JA,To what extent do you agree or disagree with the following statements? - I keep working on a task until it is finished
+ST307Q02JA,To what extent do you agree or disagree with the following statements? - I apply additional effort when work becomes challenging
+ST307Q03JA,To what extent do you agree or disagree with the following statements? - I finish tasks that I started even when they become boring
+ST307Q07JA,To what extent do you agree or disagree with the following statements? - I quit doing homework if it is too long
+ST307Q09JA,To what extent do you agree or disagree with the following statements? - I finish what I start
+ST307Q10JA,To what extent do you agree or disagree with the following statements? - I give up easily
+ST301Q01JA,To what extent do you agree or disagree with the following statements? - I am curious about many different things
+ST301Q04JA,To what extent do you agree or disagree with the following statements? - I like to know how things work
+ST301Q06JA,To what extent do you agree or disagree with the following statements? - I am more curious than most people I know
+ST301Q08JA,To what extent do you agree or disagree with the following statements? - I find learning new things to be boring
+ST301Q10JA,To what extent do you agree or disagree with the following statements? - I like learning new things
+ST435Q01DA,To what extent do you agree or disagree with the following statements? - I enjoy finding solutions to problems.
+ST435Q03DA,To what extent do you agree or disagree with the following statements? - I like situations where I have to think hard about something.
+ST435Q04DA,To what extent do you agree or disagree with the following statements? - I like complicated problems more than simple problems.
+ST435Q05DA,To what extent do you agree or disagree with the following statements? - I keep working on a problem even if I might not be able to solve it.
+ST216Q01HA,How well does each of the following statements below describe you? - I can handle unusual situations.
+ST216Q03HA,How well does each of the following statements below describe you? - I can adapt to different situations even when under stress or pressure.
+ST216Q04HA,How well does each of the following statements below describe you? - I can adapt easily to a new culture.
+ST216Q05HA,"How well does each of the following statements below describe you? - When encountering difficult situations with other people, I can find a way to resolve the situation."
+ST432Q02DA,"For each way of learning, please indicate how often you use it. - I plan my approach to studying."
+ST432Q03DA,"For each way of learning, please indicate how often you use it. - In order to identify gaps in my knowledge, I make a summary of the most important points without using my documents."
+ST432Q04DA,"For each way of learning, please indicate how often you use it. - I ask myself questions about the content to check if I have understood everything."
+ST432Q06DA,"For each way of learning, please indicate how often you use it. - If I notice that my approach to learning is not successful, I change it."
+ST433Q01DA,"We would like to learn more about how you learn. To what extent do you agree or disagree with the following statements about you? - When I do not fully understand something, I ask my classmates."
+ST433Q02DA,We would like to learn more about how you learn. To what extent do you agree or disagree with the following statements about you? - I ask my teachers for help when I need it.
+ST433Q04DA,"We would like to learn more about how you learn. To what extent do you agree or disagree with the following statements about you? - When I have trouble learning, I ask for help."
+ST433Q06DA,We would like to learn more about how you learn. To what extent do you agree or disagree with the following statements about you? - I only ask for help after trying hard to find the solution on my own.
+ST434Q02DA,To what extent do you agree or disagree with the following statements? - I evaluate what I've learned each time I finish studying material.
+ST434Q03DA,"To what extent do you agree or disagree with the following statements? - I ask for feedback on my work from someone who is more capable than me (e.g., my teacher)."
+ST331Q01JA,Now think about the effort you put into completing the PISA test and questionnaire. - How much effort did you put into doing well on the PISA test?
+ST331Q02JA,Now think about the effort you put into completing the PISA test and questionnaire. - How much effort would you have invested if your results from the PISA test were going to be counted in your <school marks>?
+ST331Q03JA,Now think about the effort you put into completing the PISA test and questionnaire. - Now think about the PISA questionnaire you just answered. How much effort did you put into giving accurate answers?
+EFFORT1,How much effort did you put into this test? (after cognitive assessment)
+EFFORT2,How much effort would you have invested? (after cognitive assessment)
+HOMEPOS,Home possessions (WLE)
+ICTRES,ICT resources (WLE)
+BELONG,Sense of belonging (WLE)
+BULLIED,Student reports on being bullied (WLE)
+FEELSAFE,Student reports on feeling safe (WLE)
+DISCLISCI,Disciplinary climate in school science (WLE)
+TEACHSUP,Teacher support in science classes (WLE)
+COGACSC,Cognitive activation in science classes (WLE)
+SCIECOLLR,Science collaborative reasoning (WLE)
+JOYSCIE,Students' enjoyment of science (WLE)
+EFFSCIE,Science self-efficacy (WLE)
+STBELSCIE,Students' beliefs about the nature of science (WLE)
+OPENVLRN,Opportunities for environmental learning in class (WLE)
+ENVAPART,Students' participation in environment-related activities (WLE)
+COLLENEFF,Collective environmental efficacy (WLE)
+ENVCAPCH,Students' beliefs in their capacity to generate environmental change (WLE)
+ENVAWARE,Students' environmental awareness (WLE)
+AIUSESCH,Students' AI use at school (WLE)
+FAMSUP,Students' perceptions of family support (WLE)
+ENGSCIPR,Students' engagement with science practices (WLE)
+CURIO,Students' curiousity (WLE)
+ENPROBS,Enjoyment of problem-solving (WLE)
+COGABIL,Cognitive adaptability (WLE)
+GOALSET,Goal setting (WLE)
+SELFREG,Self-regulation (WLE)
+ESCS,"Economic, Social and Cultural Status Index"
+BP1MJ,Parent/guardian 1's occupational status (ISEI)
+BP2MJ,Parent/guardian 2's occupational status (ISEI)
+BSMJ,Expected occupation status (ISEI)
+BICT_P1,Parent/guardian 1 born in country of test
+BICT_P2,Parent/guardian 2 born in country of test
+BICT_S,Student born in country of test
+EXERPRAC,Excersice or practise sport before or after school
+EXPECEDU,Highest expected educational level
+HISCED,Highest educational level of parent(s)/guardian(s)
+HISEI,Highest parental occupational status (ISEI)
+IMMIG,Student immigration status
+LANGN,Language spoken at home
+OCOD3,Expected occupation ISCO code
+OCOP1,Parent 1 occupational ISCO code (2-digits)
+OCOP2,Parent 2 occupational ISCO code (2-digits)
+P1ISCED,Parent/guardian 1 level of education
+P2ISCED,Parent/guardian 2's level of education
+PAREDINT,Highest education of parents in years
+PROGN,Unique national study programme code
+REPEAT,Grade repetition
+SISCO,Clear idea about future job
+SKIPPING,Skipping of classes or days of school
+TARDYSD,Arriving late for school
+WORKPAY,Working for pay before or after school
+AGE,Students' age
+GRADE,Grade compared to modal grade in country
+COBN_S,Student's country of birth
+COBN_P1,Parent 1's county of birth
+COBN_P2,Parent 2's county of birth
+W_FSTUWT,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT WEIGHT
+W_FSTURWT1,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 1
+W_FSTURWT2,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 2
+W_FSTURWT3,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 3
+W_FSTURWT4,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 4
+W_FSTURWT5,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 5
+W_FSTURWT6,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 6
+W_FSTURWT7,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 7
+W_FSTURWT8,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 8
+W_FSTURWT9,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 9
+W_FSTURWT10,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 10
+W_FSTURWT11,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 11
+W_FSTURWT12,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 12
+W_FSTURWT13,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 13
+W_FSTURWT14,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 14
+W_FSTURWT15,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 15
+W_FSTURWT16,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 16
+W_FSTURWT17,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 17
+W_FSTURWT18,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 18
+W_FSTURWT19,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 19
+W_FSTURWT20,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 20
+W_FSTURWT21,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 21
+W_FSTURWT22,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 22
+W_FSTURWT23,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 23
+W_FSTURWT24,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 24
+W_FSTURWT25,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 25
+W_FSTURWT26,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 26
+W_FSTURWT27,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 27
+W_FSTURWT28,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 28
+W_FSTURWT29,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 29
+W_FSTURWT30,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 30
+W_FSTURWT31,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 31
+W_FSTURWT32,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 32
+W_FSTURWT33,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 33
+W_FSTURWT34,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 34
+W_FSTURWT35,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 35
+W_FSTURWT36,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 36
+W_FSTURWT37,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 37
+W_FSTURWT38,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 38
+W_FSTURWT39,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 39
+W_FSTURWT40,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 40
+W_FSTURWT41,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 41
+W_FSTURWT42,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 42
+W_FSTURWT43,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 43
+W_FSTURWT44,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 44
+W_FSTURWT45,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 45
+W_FSTURWT46,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 46
+W_FSTURWT47,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 47
+W_FSTURWT48,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 48
+W_FSTURWT49,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 49
+W_FSTURWT50,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 50
+W_FSTURWT51,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 51
+W_FSTURWT52,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 52
+W_FSTURWT53,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 53
+W_FSTURWT54,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 54
+W_FSTURWT55,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 55
+W_FSTURWT56,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 56
+W_FSTURWT57,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 57
+W_FSTURWT58,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 58
+W_FSTURWT59,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 59
+W_FSTURWT60,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 60
+W_FSTURWT61,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 61
+W_FSTURWT62,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 62
+W_FSTURWT63,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 63
+W_FSTURWT64,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 64
+W_FSTURWT65,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 65
+W_FSTURWT66,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 66
+W_FSTURWT67,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 67
+W_FSTURWT68,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 68
+W_FSTURWT69,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 69
+W_FSTURWT70,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 70
+W_FSTURWT71,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 71
+W_FSTURWT72,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 72
+W_FSTURWT73,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 73
+W_FSTURWT74,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 74
+W_FSTURWT75,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 75
+W_FSTURWT76,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 76
+W_FSTURWT77,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 77
+W_FSTURWT78,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 78
+W_FSTURWT79,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 79
+W_FSTURWT80,FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 80
+UNIT,REP_BWGT: RANDOMLY ASSIGNED UNIT NUMBER
+WVARSTRR,RANDOMIZED FINAL VARIANCE STRATUM (1-80)
+PV1SCIE,Plausible Value 1 in Science
+PV2SCIE,Plausible Value 2 in Science
+PV3SCIE,Plausible Value 3 in Science
+PV4SCIE,Plausible Value 4 in Science
+PV5SCIE,Plausible Value 5 in Science
+PV6SCIE,Plausible Value 6 in Science
+PV7SCIE,Plausible Value 7 in Science
+PV8SCIE,Plausible Value 8 in Science
+PV9SCIE,Plausible Value 9 in Science
+PV10SCIE,Plausible Value 10 in Science
+PV1MATH,Plausible Value 1 in Mathematics
+PV2MATH,Plausible Value 2 in Mathematics
+PV3MATH,Plausible Value 3 in Mathematics
+PV4MATH,Plausible Value 4 in Mathematics
+PV5MATH,Plausible Value 5 in Mathematics
+PV6MATH,Plausible Value 6 in Mathematics
+PV7MATH,Plausible Value 7 in Mathematics
+PV8MATH,Plausible Value 8 in Mathematics
+PV9MATH,Plausible Value 9 in Mathematics
+PV10MATH,Plausible Value 10 in Mathematics
+PV1READ,Plausible Value 1 in Reading
+PV2READ,Plausible Value 2 in Reading
+PV3READ,Plausible Value 3 in Reading
+PV4READ,Plausible Value 4 in Reading
+PV5READ,Plausible Value 5 in Reading
+PV6READ,Plausible Value 6 in Reading
+PV7READ,Plausible Value 7 in Reading
+PV8READ,Plausible Value 8 in Reading
+PV9READ,Plausible Value 9 in Reading
+PV10READ,Plausible Value 10 in Reading
+PV1CMPS,Plausible Value 1 in LDW Computational Problem Solving
+PV2CMPS,Plausible Value 2 in LDW Computational Problem Solving
+PV3CMPS,Plausible Value 3 in LDW Computational Problem Solving
+PV4CMPS,Plausible Value 4 in LDW Computational Problem Solving
+PV5CMPS,Plausible Value 5 in LDW Computational Problem Solving
+PV6CMPS,Plausible Value 6 in LDW Computational Problem Solving
+PV7CMPS,Plausible Value 7 in LDW Computational Problem Solving
+PV8CMPS,Plausible Value 8 in LDW Computational Problem Solving
+PV9CMPS,Plausible Value 9 in LDW Computational Problem Solving
+PV10CMPS,Plausible Value 10 in LDW Computational Problem Solving
+PV1CPPK,Plausible Value 1 in LDW Computational Practices Prior Knowledge
+PV2CPPK,Plausible Value 2 in LDW Computational Practices Prior Knowledge
+PV3CPPK,Plausible Value 3 in LDW Computational Practices Prior Knowledge
+PV4CPPK,Plausible Value 4 in LDW Computational Practices Prior Knowledge
+PV5CPPK,Plausible Value 5 in LDW Computational Practices Prior Knowledge
+PV6CPPK,Plausible Value 6 in LDW Computational Practices Prior Knowledge
+PV7CPPK,Plausible Value 7 in LDW Computational Practices Prior Knowledge
+PV8CPPK,Plausible Value 8 in LDW Computational Practices Prior Knowledge
+PV9CPPK,Plausible Value 9 in LDW Computational Practices Prior Knowledge
+PV10CPPK,Plausible Value 10 in LDW Computational Practices Prior Knowledge
+PV1SEPS,Plausible Value 1 in Competency Subscale of Science - Explain Phenomena Scientifically
+PV2SEPS,Plausible Value 2 in Competency Subscale of Science - Explain Phenomena Scientifically
+PV3SEPS,Plausible Value 3 in Competency Subscale of Science - Explain Phenomena Scientifically
+PV4SEPS,Plausible Value 4 in Competency Subscale of Science - Explain Phenomena Scientifically
+PV5SEPS,Plausible Value 5 in Competency Subscale of Science - Explain Phenomena Scientifically
+PV6SEPS,Plausible Value 6 in Competency Subscale of Science - Explain Phenomena Scientifically
+PV7SEPS,Plausible Value 7 in Competency Subscale of Science - Explain Phenomena Scientifically
+PV8SEPS,Plausible Value 8 in Competency Subscale of Science - Explain Phenomena Scientifically
+PV9SEPS,Plausible Value 9 in Competency Subscale of Science - Explain Phenomena Scientifically
+PV10SEPS,Plausible Value 10 in Competency Subscale of Science - Explain Phenomena Scientifically
+PV1SEDE,Plausible Value 1 in Competency Subscale of Science - Evaluate Designs for Scientific Enquiry 
+PV2SEDE,Plausible Value 2 in Competency Subscale of Science - Evaluate Designs for Scientific Enquiry 
+PV3SEDE,Plausible Value 3 in Competency Subscale of Science - Evaluate Designs for Scientific Enquiry 
+PV4SEDE,Plausible Value 4 in Competency Subscale of Science - Evaluate Designs for Scientific Enquiry 
+PV5SEDE,Plausible Value 5 in Competency Subscale of Science - Evaluate Designs for Scientific Enquiry 
+PV6SEDE,Plausible Value 6 in Competency Subscale of Science - Evaluate Designs for Scientific Enquiry 
+PV7SEDE,Plausible Value 7 in Competency Subscale of Science - Evaluate Designs for Scientific Enquiry 
+PV8SEDE,Plausible Value 8 in Competency Subscale of Science - Evaluate Designs for Scientific Enquiry 
+PV9SEDE,Plausible Value 9 in Competency Subscale of Science - Evaluate Designs for Scientific Enquiry 
+PV10SEDE,Plausible Value 10 in Competency Subscale of Science - Evaluate Designs for Scientific Enquiry 
+PV1SEID,Plausible Value 1 in Competency Subscale of Science - Evaluate Scientific Information for Decision Making
+PV2SEID,Plausible Value 2 in Competency Subscale of Science - Evaluate Scientific Information for Decision Making
+PV3SEID,Plausible Value 3 in Competency Subscale of Science - Evaluate Scientific Information for Decision Making
+PV4SEID,Plausible Value 4 in Competency Subscale of Science - Evaluate Scientific Information for Decision Making
+PV5SEID,Plausible Value 5 in Competency Subscale of Science - Evaluate Scientific Information for Decision Making
+PV6SEID,Plausible Value 6 in Competency Subscale of Science - Evaluate Scientific Information for Decision Making
+PV7SEID,Plausible Value 7 in Competency Subscale of Science - Evaluate Scientific Information for Decision Making
+PV8SEID,Plausible Value 8 in Competency Subscale of Science - Evaluate Scientific Information for Decision Making
+PV9SEID,Plausible Value 9 in Competency Subscale of Science - Evaluate Scientific Information for Decision Making
+PV10SEID,Plausible Value 10 in Competency Subscale of Science - Evaluate Scientific Information for Decision Making
+PV1SENV,Plausible Value 1 in Environmental Science
+PV2SENV,Plausible Value 2 in Environmental Science
+PV3SENV,Plausible Value 3 in Environmental Science
+PV4SENV,Plausible Value 4 in Environmental Science
+PV5SENV,Plausible Value 5 in Environmental Science
+PV6SENV,Plausible Value 6 in Environmental Science
+PV7SENV,Plausible Value 7 in Environmental Science
+PV8SENV,Plausible Value 8 in Environmental Science
+PV9SENV,Plausible Value 9 in Environmental Science
+PV10SENV,Plausible Value 10 in Environmental Science
+PV1CMOD,Plausible Value 1 in LDW Subscale - Modelling 
+PV2CMOD,Plausible Value 2 in LDW Subscale - Modelling 
+PV3CMOD,Plausible Value 3 in LDW Subscale - Modelling 
+PV4CMOD,Plausible Value 4 in LDW Subscale - Modelling 
+PV5CMOD,Plausible Value 5 in LDW Subscale - Modelling 
+PV6CMOD,Plausible Value 6 in LDW Subscale - Modelling 
+PV7CMOD,Plausible Value 7 in LDW Subscale - Modelling 
+PV8CMOD,Plausible Value 8 in LDW Subscale - Modelling 
+PV9CMOD,Plausible Value 9 in LDW Subscale - Modelling 
+PV10CMOD,Plausible Value 10 in LDW Subscale - Modelling 
+PV1CPRO,Plausible Value 1 in LDW Subscale - Programming 
+PV2CPRO,Plausible Value 2 in LDW Subscale - Programming 
+PV3CPRO,Plausible Value 3 in LDW Subscale - Programming 
+PV4CPRO,Plausible Value 4 in LDW Subscale - Programming 
+PV5CPRO,Plausible Value 5 in LDW Subscale - Programming 
+PV6CPRO,Plausible Value 6 in LDW Subscale - Programming 
+PV7CPRO,Plausible Value 7 in LDW Subscale - Programming 
+PV8CPRO,Plausible Value 8 in LDW Subscale - Programming 
+PV9CPRO,Plausible Value 9 in LDW Subscale - Programming 
+PV10CPRO,Plausible Value 10 in LDW Subscale - Programming 
+SENWT,Senate Weight (sum of 5000 per country)
+VER_DAT,Date of the database creation

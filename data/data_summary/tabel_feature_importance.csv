@@ -1,0 +1,31 @@
+Variable,Deskripsi,Importance
+EFFSCIE,Efikasi Diri Sains,0.06298028733711995
+DISCLISCI,Iklim Disiplin Kelas Sains,0.06181089208152356
+COGABIL,Adaptabilitas Kognitif,0.06064149682592716
+ICTRES,Ketersediaan Sumber Daya TIK,0.05863681924490478
+BELONG,Rasa Memiliki terhadap Sekolah,0.0556298028733712
+CURIO,Rasa Ingin Tahu (Curiosity),0.05295689943200802
+STBELSCIE,Keyakinan Hakikat Sains,0.05212161710658202
+AIUSESCH,Penggunaan AI di Sekolah,0.05061810892081524
+COGACSC,Aktivasi Kognitif oleh Guru,0.04443701971266288
+ENPROBS,Minat Pemecahan Masalah (Problem Solving),0.042432342131640495
+SCIECOLLR,Penalaran Kolaboratif Sains,0.0419311727363849
+HOMEPOS,Kepemilikan Fasilitas Rumah,0.038255930504510524
+ESCS,Indeks Sosial-Ekonomi & Budaya,0.03775476110925493
+HISEI,Status Pekerjaan Tertinggi Orang Tua,0.03608419645840294
+TEACHSUP,Dukungan Guru Sains,0.03090544604076178
+GOALSET,Penetapan Tujuan (Goal Setting),0.030738389575676577
+ST326Q04JA,Jam/Hari Gawai Hiburan di Sekolah,0.026896090878717006
+FEELSAFE,Rasa Aman di Lingkungan Sekolah,0.02656197794854661
+SELFREG,Regulasi Diri (Self-Regulation),0.02522552622786502
+IC173Q02JA,Frekuensi TIK pada Pelajaran Matematika,0.024056130972268625
+JOYSCIE,Kesenangan Belajar Sains,0.022719679251587035
+ST326Q01JA,Jam/Hari Gawai Belajar di Sekolah,0.02088205813564985
+MALE,Jenis Kelamin (Laki-laki),0.017540928833945875
+ST326Q02JA,Jam/Hari Gawai Belajar Luar Sekolah,0.016538590043434682
+PAREDINT,Pendidikan Orang Tua (Tahun),0.015369194787838289
+ST326Q05JA,Jam/Hari Gawai Hiburan Luar Sekolah,0.014199799532241897
+ST097Q06DA,Distraksi Gawai Digital saat Jam Sains,0.011693952555963916
+IC173Q03JA,Frekuensi TIK pada Pelajaran Sains,0.011526896090878718
+ST250Q02JA,Komputer Rumah untuk Tugas Sekolah,0.005512863347811561
+ST250Q03JA,Software Edukasi di Rumah,0.003341129301703976

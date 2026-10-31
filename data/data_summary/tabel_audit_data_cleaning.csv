@@ -1,0 +1,31 @@
+Feature,Deskripsi,Missing_Count,Missing_Pct,Valid_Count,Mean,Std
+HISEI,Pekerjaan Tertinggi Orang Tua,1311,9.25,12857,36.624,21.62
+COGABIL,Adaptabilitas Kognitif,919,6.49,13249,-0.057,1.006
+GOALSET,Penetapan Tujuan (Goal Setting),830,5.86,13338,0.319,0.803
+SELFREG,Regulasi Diri (Self-Regulation),813,5.74,13355,0.26,0.882
+ENPROBS,Minat Pemecahan Masalah,811,5.72,13357,0.335,0.813
+PAREDINT,Pendidikan Orang Tua (Tahun),799,5.64,13369,12.039,2.761
+CURIO,Rasa Ingin Tahu (Curiosity),794,5.6,13374,0.231,0.935
+IC173Q02JA,Frekuensi TIK pada Matematika,646,4.56,13522,2.458,1.282
+ST326Q05JA,Jam Gawai Hiburan Luar Sekolah,542,3.83,13626,3.16,2.133
+IC173Q03JA,Frekuensi TIK pada Sains,526,3.71,13642,2.72,1.263
+AIUSESCH,Penggunaan AI di Sekolah,517,3.65,13651,0.141,0.896
+ST326Q04JA,Jam Gawai Hiburan di Sekolah,517,3.65,13651,2.65,1.857
+ST326Q02JA,Jam Gawai Belajar Luar Sekolah,473,3.34,13695,3.025,1.99
+ST250Q03JA,Software Edukasi di Rumah,421,2.97,13747,1.254,0.435
+ST326Q01JA,Jam Gawai Belajar di Sekolah,393,2.77,13775,4.049,2.555
+ST097Q06DA,Distraksi Gawai saat Jam Sains,376,2.65,13792,3.149,0.986
+ESCS,Indeks Sosial-Ekonomi & Budaya,354,2.5,13814,-1.354,1.046
+COGACSC,Aktivasi Kognitif oleh Guru,276,1.95,13892,0.568,1.082
+STBELSCIE,Keyakinan Hakikat Sains,269,1.9,13899,-0.149,0.834
+EFFSCIE,Efikasi Diri Sains,268,1.89,13900,-0.068,0.854
+SCIECOLLR,Penalaran Kolaboratif Sains,256,1.81,13912,0.639,0.874
+ST250Q02JA,Komputer Rumah untuk Belajar,254,1.79,13914,1.47,0.499
+TEACHSUP,Dukungan Guru Sains,223,1.57,13945,0.539,0.909
+JOYSCIE,Kesenangan Belajar Sains,220,1.55,13948,0.515,0.871
+DISCLISCI,Iklim Disiplin Kelas Sains,202,1.43,13966,0.461,1.0
+BELONG,Rasa Memiliki Sekolah,175,1.24,13993,-0.075,0.742
+FEELSAFE,Rasa Aman di Sekolah,153,1.08,14015,-0.083,0.883
+ICTRES,Ketersediaan Sumber Daya TIK,113,0.8,14055,-1.463,1.04
+HOMEPOS,Fasilitas Rumah,90,0.64,14078,-1.602,1.014
+MALE,Gender (Laki-laki),0,0.0,14168,0.476,0.499
